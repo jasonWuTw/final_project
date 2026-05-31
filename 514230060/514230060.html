@@ -1,0 +1,595 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sophie's World | Personal Webpage</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Serif+TC:wght@300;400;600&family=DM+Sans:wght@300;400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg fixed-top" aria-label="Primary navigation">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand nav-logo">Sophie's World</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavbar"
+          aria-controls="primaryNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="primaryNavbar">
+          <div class="navbar-nav ms-auto nav-links">
+            <a class="nav-link" href="../index.html">Home</a>
+            <a class="nav-link" href="#travel">旅行足跡</a>
+            <a class="nav-link" href="#interests">興趣</a>
+            <a class="nav-link" href="ai-program.html">AI 學習</a>
+            <a class="nav-link" href="#contact">聯絡</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- PROFILE HERO -->
+    <section class="profile-hero">
+      <div class="profile-content">
+        <div class="profile-tag">Personal Page · 個人頁面</div>
+        <h1 class="profile-name">
+          Sophie
+          <em>Taiwan · London · Oslo</em>
+        </h1>
+        <div class="dynamic-identity" aria-live="polite">
+          <span class="dynamic-prefix">Currently</span>
+          <span class="dynamic-text" id="dynamicIdentity">learning with AI</span>
+        </div>
+        <div class="profile-roles">
+          <span class="role-badge">CPA</span>
+          <span class="role-badge">AI Program Student</span>
+          <span class="role-badge">旅行愛好者 Traveler</span>
+          <span class="role-badge">♥ Oslo</span>
+          <span class="role-badge">♥ London</span>
+          <span class="role-badge">雙子座 ♊ Gemini</span>
+          <span class="role-badge">瑜珈人 Yogi</span>
+        </div>
+        <p class="profile-bio">
+          嗨！我是 Sophie，名字來自《蘇菲的世界》——那本讓我開始思考哲學、思考存在的意義、思考「我是誰」的書。<br>
+          對世界充滿好奇，熱愛學習新事物，喜歡散步，用雙腳感受每一個地方。<br>
+          倫敦是我的第二個故鄉，那是一段為了目標而獨自停留的時光。<br>
+          最愛的書是《小王子》，每次讀都有不同的感受。<br><br>
+          Hi! I'm Sophie — born in Taixi, Yunlin, Taiwan. My name was inspired by <em>Sophie's World</em>, the book that
+          first led me to philosophy, to question the meaning of existence, and to ask: who am I?
+          Naturally curious, I love learning new things and exploring trails—experiencing each place step by step.
+          London is my second home, a place I stayed to pursue my own goals.
+          My favourite book is <em>The Little Prince</em>. Every read feels different.
+        </p>
+
+        <div class="about-snapshot" aria-label="Sophie profile snapshot">
+          <div class="snapshot-item">
+            <i class="bi bi-geo-alt" aria-hidden="true"></i>
+            <div class="snapshot-item-text">
+              <span>From</span>
+              <strong>Taixi, Yunlin</strong>
+            </div>
+          </div>
+          <div class="snapshot-item">
+            <i class="bi bi-house-heart" aria-hidden="true"></i>
+            <div class="snapshot-item-text">
+              <span>Based in</span>
+              <strong>New Taipei</strong>
+            </div>
+          </div>
+          <div class="snapshot-item">
+            <i class="bi bi-briefcase" aria-hidden="true"></i>
+            <div class="snapshot-item-text">
+              <span>Identity</span>
+              <strong>CPA · AI Student</strong>
+            </div>
+          </div>
+          <div class="snapshot-item">
+            <i class="bi bi-stars" aria-hidden="true"></i>
+            <div class="snapshot-item-text">
+              <span>Loves</span>
+              <strong>Travel · Reading · Yoga</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hometown Block -->
+        <div class="hometown-block">
+          <div class="hometown-origin">
+            <div class="hometown-label">Origin · 起點</div>
+            <div class="hometown-name">台西，雲林</div>
+            <div class="hometown-name-en">Taixi, Yunlin · Taiwan</div>
+          </div>
+          <div class="hometown-arrow">→</div>
+          <div class="hometown-narrative">
+            <p>從一個小鄉村出發，帶著好奇心走過 <em>12+ 個國家</em>，<br>現在正踏上另一段旅程——<em>AI 的世界</em>。</p>
+            <p style="margin-top:6px; font-size:0.78rem; color:#aaa; font-family:'DM Sans',sans-serif;">From a small
+              village → the world → now, AI.</p>
+          </div>
+        </div>
+
+        <div class="stats-row">
+          <div class="stat">
+            <div class="stat-num">12+</div>
+            <div class="stat-label">Countries</div>
+            <div class="stat-label-zh">造訪國家</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">∞</div>
+            <div class="stat-label">Memories</div>
+            <div class="stat-label-zh">美好回憶</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">1</div>
+            <div class="stat-label">Adventure</div>
+            <div class="stat-label-zh">進行中的冒險</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="sep">
+      <div class="sep-line"></div>
+      <div class="sep-icon">✦</div>
+      <div class="sep-line"></div>
+    </div>
+
+    <!-- TRAVEL -->
+    <section class="section" id="travel">
+      <div class="section-header reveal">
+        <div class="section-num">01</div>
+        <div class="section-info">
+          <div class="section-label">Wanderlust · 旅行足跡</div>
+          <div class="section-title">去過的地方<br><em style="font-style:italic;color:var(--terracotta)">Places I've
+              Been</em></div>
+        </div>
+      </div>
+
+      <div class="travel-grid reveal">
+
+        <!-- 台灣 — featured 2×2 -->
+        <div class="travel-card featured">
+          <div class="travel-bg" style="background: linear-gradient(150deg, #006064 0%, #43a047 50%, #b2dfdb 100%);">
+          </div>
+          <div class="travel-watermark">🇹🇼</div>
+          <div class="travel-overlay"></div>
+          <div class="travel-info">
+            <div class="travel-place">台灣 Taiwan · Home</div>
+            <div class="travel-en">New Taipei · Taichung · Tainan · Kaohsiung · Yilan · Taitung · Keelung · Yunlin ·
+              Xitou</div>
+          </div>
+        </div>
+
+        <!-- Japan — col 3, row 1 -->
+        <div class="travel-card">
+          <div class="travel-bg"
+            style="background: linear-gradient(150deg, #7b1fa2 0%, #c62828 35%, #e91e63 60%, #fce4ec 100%);"></div>
+          <div class="travel-watermark">🗾</div>
+          <div class="travel-overlay"></div>
+          <div class="travel-info">
+            <div class="travel-place">日本 Japan</div>
+            <div class="travel-en">Tokyo · Nagoya · Kyoto · Kobe · Fukuoka · Karuizawa · Hokkaido · Okinawa</div>
+          </div>
+        </div>
+
+        <!-- Korea — col 3, row 2 -->
+        <div class="travel-card">
+          <div class="travel-bg" style="background: linear-gradient(135deg, #0d47a1 0%, #1565c0 55%, #c62828 100%);">
+          </div>
+          <div class="travel-watermark">🇰🇷</div>
+          <div class="travel-overlay"></div>
+          <div class="travel-info">
+            <div class="travel-place">韓國 South Korea</div>
+            <div class="travel-en">Seoul</div>
+          </div>
+        </div>
+
+        <!-- 英國 — col 1, row 3 -->
+        <div class="travel-card favorite">
+          <div class="travel-bg" style="background: linear-gradient(135deg, #1a237e 0%, #455a64 50%, #b71c1c 100%);">
+          </div>
+          <div class="travel-watermark">🇬🇧</div>
+          <div class="travel-overlay"></div>
+          <div class="travel-info">
+            <div class="travel-place">英國 UK</div>
+            <div class="travel-en">London · Cambridge · Second Home</div>
+          </div>
+        </div>
+
+        <!-- 瑞典 — col 3, row 3 -->
+        <div class="travel-card">
+          <div class="travel-bg" style="background: linear-gradient(135deg, #0d47a1 0%, #1976d2 60%, #f9a825 100%);">
+          </div>
+          <div class="travel-watermark">🇸🇪</div>
+          <div class="travel-overlay"></div>
+          <div class="travel-info">
+            <div class="travel-place">瑞典 Sweden</div>
+            <div class="travel-en">Stockholm · 斯德哥爾摩</div>
+          </div>
+        </div>
+
+        <!-- 挪威 Oslo — col 1, row 4 -->
+        <div class="travel-card favorite">
+          <div class="travel-bg" style="background: linear-gradient(150deg, #1a237e 0%, #00695c 65%, #80cbc4 100%);">
+          </div>
+          <div class="travel-watermark">🇳🇴</div>
+          <div class="travel-overlay"></div>
+          <div class="travel-info">
+            <div class="travel-place">挪威 Norway</div>
+            <div class="travel-en">Oslo · Bergen · Flåm</div>
+          </div>
+        </div>
+
+        <!-- 義大利 — col 2, row 4 -->
+        <div class="travel-card">
+          <div class="travel-bg" style="background: linear-gradient(135deg, #2e7d32 0%, #f9a825 50%, #c62828 100%);">
+          </div>
+          <div class="travel-watermark">🇮🇹</div>
+          <div class="travel-overlay"></div>
+          <div class="travel-info">
+            <div class="travel-place">義大利 Italy</div>
+            <div class="travel-en">Venice · Rome · Florence · Milan · Sangina · Sardinia</div>
+          </div>
+        </div>
+
+        <!-- 荷蘭 — col 3, row 4 -->
+        <div class="travel-card">
+          <div class="travel-bg" style="background: linear-gradient(135deg, #e65100 0%, #f57c00 45%, #1565c0 100%);">
+          </div>
+          <div class="travel-watermark">🇳🇱</div>
+          <div class="travel-overlay"></div>
+          <div class="travel-info">
+            <div class="travel-place">荷蘭 Netherlands</div>
+            <div class="travel-en">Amsterdam · Borden</div>
+          </div>
+        </div>
+
+        <!-- 西班牙 — col 1, row 5 -->
+        <div class="travel-card">
+          <div class="travel-bg" style="background: linear-gradient(135deg, #b71c1c 0%, #f9a825 50%, #b71c1c 100%);">
+          </div>
+          <div class="travel-watermark">🇪🇸</div>
+          <div class="travel-overlay"></div>
+          <div class="travel-info">
+            <div class="travel-place">西班牙 Spain</div>
+            <div class="travel-en">Madrid · Barcelona · Gaudí</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="sep">
+      <div class="sep-line"></div>
+      <div class="sep-icon">✦</div>
+      <div class="sep-line"></div>
+    </div>
+
+    <!-- INTERESTS -->
+    <section class="section" id="interests">
+      <div class="section-header reveal">
+        <div class="section-num">02</div>
+        <div class="section-info">
+          <div class="section-label">Hobbies · 興趣愛好</div>
+          <div class="section-title">我喜歡的事<br><em style="font-style:italic;color:var(--terracotta)">What I Love</em>
+          </div>
+        </div>
+      </div>
+
+      <div class="container interests-container">
+        <div class="btn-group interests-filter" role="group" aria-label="興趣分類">
+          <button type="button" class="btn btn-filter active" data-filter="all">All</button>
+          <button type="button" class="btn btn-filter" data-filter="travel">旅行</button>
+          <button type="button" class="btn btn-filter" data-filter="culture">文化</button>
+          <button type="button" class="btn btn-filter" data-filter="wellness">身心</button>
+          <button type="button" class="btn btn-filter" data-filter="learning">學習</button>
+        </div>
+        <div class="row g-3 interests-grid">
+
+          <div class="col-12 col-sm-6 col-lg-3" data-category="travel">
+            <div class="interest-item reveal" data-emoji="✈️">
+              <div class="interest-icon">✈️</div>
+              <div class="interest-title-zh">旅行</div>
+              <div class="interest-title-en">Travel</div>
+              <p class="interest-desc">探索不同的文化與城市，每個地方都有屬於自己的故事。<br>Exploring different cultures and cities around the
+                world.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3" data-category="culture">
+            <div class="interest-item reveal" data-emoji="☕">
+              <div class="interest-icon">☕</div>
+              <div class="interest-title-zh">咖啡</div>
+              <div class="interest-title-en">Coffee</div>
+              <p class="interest-desc">喜歡在不同城市的咖啡廳裡發呆、讀書、感受當地氛圍。<br>Finding cozy cafés in every city I visit.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3" data-category="culture">
+            <a href="#reading" class="interest-item reveal" data-emoji="📚" style="text-decoration:none;">
+              <div class="interest-icon">📚</div>
+              <div class="interest-title-zh">閱讀</div>
+              <div class="interest-title-en">Reading</div>
+              <p class="interest-desc">喜歡在旅途中讀書，讓文字帶我去更遠的地方。<br>Books take me further than any plane ever could.</p>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3" data-category="culture">
+            <div class="interest-item reveal" data-emoji="🍜">
+              <div class="interest-icon">🍜</div>
+              <div class="interest-title-zh">美食</div>
+              <div class="interest-title-en">Food</div>
+              <p class="interest-desc">旅行的一半是吃，探索當地美食是我最愛的旅行方式。<br>Half of traveling is eating — local food is my love
+                language.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3" data-category="wellness">
+            <div class="interest-item reveal" data-emoji="🎵">
+              <div class="interest-icon">🎵</div>
+              <div class="interest-title-zh">音樂</div>
+              <div class="interest-title-en">Music</div>
+              <p class="interest-desc">旅途中一定要有好的播放清單相伴。<br>Every journey needs the perfect soundtrack.</p>
+              <a href="https://www.youtube.com/watch?v=JF8BRvqGCNs" target="_blank" class="yt-thumb">
+                <img src="https://img.youtube.com/vi/JF8BRvqGCNs/hqdefault.jpg" alt="YouTube video" />
+                <span class="yt-play">▶</span>
+              </a>
+              <div class="yt-wrap" style="margin-top: 12px;">
+                <iframe src="https://www.youtube.com/embed/dt0Y6O97VQA" title="YouTube" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <a href="https://www.youtube.com/watch?v=RBumgq5yVrA" target="_blank" class="yt-thumb"
+                style="margin-top: 12px;">
+                <img src="https://img.youtube.com/vi/RBumgq5yVrA/hqdefault.jpg" alt="YouTube video" />
+                <span class="yt-play">▶</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3" data-category="wellness">
+            <div class="interest-item reveal" data-emoji="🧘">
+              <div class="interest-icon">🧘</div>
+              <div class="interest-title-zh">瑜珈</div>
+              <div class="interest-title-en">Yoga</div>
+              <p class="interest-desc">在忙碌的生活中找到屬於自己的呼吸與空間。<br>Finding stillness and balance in the middle of a busy
+                life.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3" data-category="travel">
+            <div class="interest-item reveal" data-emoji="🍷">
+              <div class="interest-icon">🍷</div>
+              <div class="interest-title-zh">葡萄酒</div>
+              <div class="interest-title-en">Wine</div>
+              <p class="interest-desc">在每一杯酒裡感受風土與故事，旅行時尋訪當地酒莊是一種儀式。<br>Every glass tells a story of place — visiting
+                local wineries is a travel ritual.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3" data-category="learning">
+            <a href="ai-program.html" class="interest-item interest-item--ai reveal" data-emoji="🤖"
+              style="text-decoration:none;">
+              <div class="interest-icon">🤖</div>
+              <div class="interest-title-zh">AI 學習</div>
+              <div class="interest-title-en">AI Program</div>
+              <div class="ai-spinner-wrapper">
+                <div class="spinner-border spinner-border-sm ai-spinner" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+                <span class="ai-spinner-label">AI is thinking · 學習中</span>
+              </div>
+              <p class="interest-desc">從 Colab 到 VS Code，從亂試到結構化思考。記錄與 AI 協作的學習歷程。<br>From trial-and-error to structured
+                thinking with AI.</p>
+              <span class="interest-link">閱讀心得 →</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="sep">
+      <div class="sep-line"></div>
+      <div class="sep-icon">✦</div>
+      <div class="sep-line"></div>
+    </div>
+
+    <!-- READING -->
+    <section class="section" id="reading">
+      <div class="section-header">
+        <div class="section-num">03</div>
+        <div class="section-info">
+          <div class="section-label">Reading Shelf · 閱讀書架</div>
+          <div class="section-title">Sophie’s Reading Shelf<br><em
+              style="font-style:italic;color:var(--terracotta)">Words I Keep</em></div>
+        </div>
+      </div>
+
+      <article class="reading-card">
+        <div class="reading-meta">
+          <div>
+            <div class="reading-author">席慕蓉 Xi Murong</div>
+            <div class="reading-work">〈一棵開花的樹〉</div>
+          </div>
+          <div class="reading-note">Short excerpt · 短摘句</div>
+        </div>
+        <div class="reading-body">
+          <p class="reading-quote">「如何讓你遇見我，在我最美麗的時刻」</p>
+          <p class="reading-reflection">
+            我喜歡這首詩，是因為它把「等待被看見」寫得很安靜。
+          </p>
+          <div class="reading-actions" aria-label="Reading section navigation">
+            <a href="#interests">Back to interests</a>
+            <a href="#main-content">Back to top</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <div class="sep">
+      <div class="sep-line"></div>
+      <div class="sep-icon">✦</div>
+      <div class="sep-line"></div>
+    </div>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-heading">
+          <div class="section-label">旅行推薦 · 留言給 Sophie</div>
+          <h2 class="section-title">寫信給 Sophie · Say Hello</h2>
+        </div>
+        <div class="contact-layout">
+          <div class="contact-cards" aria-label="Contact options">
+            <a class="contact-card" href="https://github.com/CPA-Sophie" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github" aria-hidden="true"></i>
+              <span>GitHub</span>
+              <strong>CPA-Sophie</strong>
+            </a>
+            <a class="contact-card" href="ai-program.html">
+              <i class="bi bi-cpu" aria-hidden="true"></i>
+              <span>AI Program</span>
+              <strong>Learning Journey</strong>
+            </a>
+            <a class="contact-card" href="#contactForm">
+              <i class="bi bi-envelope-heart" aria-hidden="true"></i>
+              <span>Message</span>
+              <strong>Send a note</strong>
+            </a>
+            <div class="contact-card">
+              <i class="bi bi-pin-map" aria-hidden="true"></i>
+              <span>Location</span>
+              <strong>New Taipei · Taiwan</strong>
+            </div>
+          </div>
+          <div class="contact-form-wrap">
+            <form id="contactForm" novalidate>
+              <div id="contactAlert" class="contact-alert-slot" aria-live="polite"></div>
+
+              <div class="mb-3">
+                <label for="contactName" class="form-label">姓名 · Name</label>
+                <input type="text" class="form-control" id="contactName" name="name" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="contactEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="contactEmail" name="email" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="contactPlace" class="form-label">你去過哪裡？</label>
+                <select class="form-select" id="contactPlace" name="place">
+                  <option value="" selected>請選擇 · Select</option>
+                  <option value="taiwan">台灣</option>
+                  <option value="japan">日本</option>
+                  <option value="korea">韓國</option>
+                  <option value="europe">歐洲</option>
+                  <option value="other">其他</option>
+                </select>
+              </div>
+
+              <div class="mb-4">
+                <label for="contactMessage" class="form-label">旅行推薦或留言</label>
+                <textarea class="form-control" id="contactMessage" name="message" rows="4"></textarea>
+              </div>
+
+              <button type="submit" class="btn contact-submit">送出 · Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Sophie · 個人網站 · <a href="../index.html">← 回首頁 Back to Home</a></p>
+    <p style="margin-top:8px;"><a href="https://github.com/CPA-Sophie" target="_blank">GitHub · CPA-Sophie</a></p>
+    <p style="margin-top:8px;opacity:0.6;">Web Design Final Project · 2026</p>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 100);
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const identityWords = [
+      'learning with AI',
+      'walking through cities',
+      'reading slowly',
+      'building structured thoughts',
+      'collecting travel stories'
+    ];
+    const dynamicIdentity = document.getElementById('dynamicIdentity');
+    let identityIndex = 0;
+
+    window.setInterval(() => {
+      if (!dynamicIdentity) return;
+      identityIndex = (identityIndex + 1) % identityWords.length;
+      dynamicIdentity.classList.add('is-changing');
+      window.setTimeout(() => {
+        dynamicIdentity.textContent = identityWords[identityIndex];
+        dynamicIdentity.classList.remove('is-changing');
+      }, 700);
+    }, 6200);
+  </script>
+  <script>
+    const contactForm = document.getElementById('contactForm');
+    const contactAlert = document.getElementById('contactAlert');
+
+    contactForm?.addEventListener('submit', (event) => {
+      event.preventDefault();
+
+      const name = document.getElementById('contactName')?.value.trim();
+      const email = document.getElementById('contactEmail')?.value.trim();
+      const isValid = Boolean(name && email);
+      const alertClass = isValid ? 'alert-success' : 'alert-danger';
+      const message = isValid
+        ? '謝謝你的留言！Thank you for your message 🌿'
+        : '請填寫姓名與 Email';
+
+      contactAlert.innerHTML = `
+        <div class="alert ${alertClass} alert-dismissible fade show" role="alert">
+          ${message}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      `;
+    });
+  </script>
+  <script>
+    const filterButtons = document.querySelectorAll('.btn-filter');
+    const interestColumns = document.querySelectorAll('.interests-grid > [data-category]');
+
+    filterButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const filter = button.dataset.filter;
+
+        filterButtons.forEach((item) => item.classList.remove('active'));
+        button.classList.add('active');
+
+        interestColumns.forEach((column) => {
+          const shouldShow = filter === 'all' || column.dataset.category === filter;
+          column.classList.add('is-fading');
+
+          window.setTimeout(() => {
+            column.style.display = shouldShow ? '' : 'none';
+            window.requestAnimationFrame(() => {
+              column.classList.toggle('is-fading', !shouldShow);
+            });
+          }, 160);
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

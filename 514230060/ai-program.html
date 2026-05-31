@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sophie · AI Program — A Learning Journal</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Noto+Serif+TC:wght@300;400&family=DM+Mono:wght@300;400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/ai-program.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top site-nav" aria-label="main navigation">
+      <div class="container-fluid nav-inner">
+        <a href="index.html" class="navbar-brand nav-logo">Sophie</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+          aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <div class="navbar-nav ms-auto nav-links">
+            <a class="nav-link" href="../index.html">← Home</a>
+            <a class="nav-link" href="#summary">Summary</a>
+            <a class="nav-link" href="#journey" data-act-tab="#act-i-tab-button">Act I</a>
+            <a class="nav-link" href="#journey" data-act-tab="#act-ii-tab-button">Act II</a>
+            <a class="nav-link" href="#journey" data-act-tab="#act-iii-tab-button">Act III</a>
+            <a class="nav-link" href="#journey" data-act-tab="#act-iv-tab-button">Act IV</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- BREADCRUMB -->
+    <nav class="page-breadcrumb" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">AI Program</li>
+      </ol>
+    </nav>
+
+    <!-- ═══ HERO ═══ -->
+    <section class="hero">
+      <div class="hero-eyebrow">智慧決策分析系統實作 &thinsp;·&thinsp; 2025–2026</div>
+      <h1 class="hero-title">
+        <span class="hero-title-main">AI Program</span>
+        <em class="hero-title-sub">A Learning Journal</em>
+      </h1>
+      <p class="hero-caption">
+        From Colab midnight sessions and error messages<br>
+        to a quiet alignment — still ongoing, still unfinished.
+      </p>
+      <div class="hero-scroll-hint" aria-hidden="true">scroll ↓</div>
+    </section>
+
+    <!-- ═══ SUMMARY ═══ -->
+    <section id="summary" class="summary">
+      <div class="summary-sidebar">
+        <div class="sidebar-label">Summary</div>
+        <div class="sidebar-label">學習總結</div>
+      </div>
+
+      <div class="summary-body">
+        <div class="alert alert-dismissible fade show learning-alert" role="alert">
+          🌱&ensp;This learning journey is still ongoing &thinsp;·&thinsp; 持續更新中
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <h2 class="summary-heading">From Trial&#8209;and&#8209;Error<br>to Structured Thinking</h2>
+        <p class="summary-lede">Learning how to truly work with AI — not just use it.</p>
+
+        <div class="summary-text">
+          <p>My journey into AI began as a self-driven experiment — trying to build machine learning models in Colab
+            during the winter break, often facing frustration and misalignment when working with AI tools.</p>
+          <p>Over time, especially after transitioning to VS Code and collaborating with GPT and Claude, I started to
+            move beyond trial-and-error and develop a more structured way of thinking. AI became not just a tool, but a
+            system to align with.</p>
+          <p>Through coursework and project presentations, including my text mining midterm, I learned how to organize
+            ideas, communicate clearly, and reflect on both my own performance and the shared experience of my peers.
+          </p>
+          <p>I also became more aware of the reality around me — balancing study, work, and fatigue — and began to see
+            learning not only as technical progress, but as a long-term process of persistence.</p>
+          <p>While the changes may seem small, I have built stronger logical thinking and project structuring skills.
+            More importantly, I have learned how to work with AI effectively.</p>
+          <blockquote class="summary-quote">This journey is still ongoing, but it has already reshaped how I approach
+            problems, learning, and growth.</blockquote>
+        </div>
+
+        <!-- SKILLS TABLE -->
+        <div class="skills-section">
+          <div class="skills-label">Skills Snapshot &thinsp;·&thinsp; 技能現況</div>
+          <div class="table-responsive">
+            <table class="skills-table">
+              <thead>
+                <tr>
+                  <th>技能領域</th>
+                  <th>學習前</th>
+                  <th>學習後</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="skill-name">Python / Colab</td>
+                  <td class="skill-before">幾乎從零開始</td>
+                  <td class="skill-after">能獨立執行 ML 流程</td>
+                  <td><span class="skill-badge skill-ongoing">進行中</span></td>
+                </tr>
+                <tr>
+                  <td class="skill-name">AI 協作</td>
+                  <td class="skill-before">試誤法，常卡關</td>
+                  <td class="skill-after">結構化對齊，效率大幅提升</td>
+                  <td><span class="skill-badge skill-break">突破</span></td>
+                </tr>
+                <tr>
+                  <td class="skill-name">Text Mining</td>
+                  <td class="skill-before">不熟悉</td>
+                  <td class="skill-after">完成期中實作報告</td>
+                  <td><span class="skill-badge skill-done">完成</span></td>
+                </tr>
+                <tr>
+                  <td class="skill-name">VS Code 工作流</td>
+                  <td class="skill-before">未使用</td>
+                  <td class="skill-after">主要開發環境</td>
+                  <td><span class="skill-badge skill-done">完成</span></td>
+                </tr>
+                <tr>
+                  <td class="skill-name">統計學應用</td>
+                  <td class="skill-before">有碩士基礎</td>
+                  <td class="skill-after">與 AI 工具結合應用</td>
+                  <td><span class="skill-badge skill-ongoing">持續中</span></td>
+                </tr>
+                <tr>
+                  <td class="skill-name">邏輯思考</td>
+                  <td class="skill-before">直覺式</td>
+                  <td class="skill-after">系統化拆題，能清晰表達</td>
+                  <td><span class="skill-badge skill-break">突破</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider" aria-hidden="true"><span>✦</span></div>
+
+    <!-- ═══ JOURNEY ═══ -->
+    <section id="journey" class="journey">
+      <div class="journey-header">
+        <div class="journey-label">Learning Journal &thinsp;·&thinsp; 學習日誌</div>
+        <ul class="nav act-tabs" id="actTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="act-tab active" id="act-i-tab-button" data-bs-toggle="tab" data-bs-target="#act-i-tab"
+              type="button" role="tab" aria-controls="act-i-tab" aria-selected="true">
+              <span class="tab-num">I</span><span class="tab-name">Beginning</span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="act-tab" id="act-ii-tab-button" data-bs-toggle="tab" data-bs-target="#act-ii-tab"
+              type="button" role="tab" aria-controls="act-ii-tab" aria-selected="false">
+              <span class="tab-num">II</span><span class="tab-name">Struggle</span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="act-tab" id="act-iii-tab-button" data-bs-toggle="tab" data-bs-target="#act-iii-tab"
+              type="button" role="tab" aria-controls="act-iii-tab" aria-selected="false">
+              <span class="tab-num">III</span><span class="tab-name">Turning Point</span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="act-tab" id="act-iv-tab-button" data-bs-toggle="tab" data-bs-target="#act-iv-tab"
+              type="button" role="tab" aria-controls="act-iv-tab" aria-selected="false">
+              <span class="tab-num">IV</span><span class="tab-name">Now</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tab-content journey-content" id="actTabsContent">
+
+        <!-- ACT I -->
+        <div class="tab-pane fade show active" id="act-i-tab" role="tabpanel" aria-labelledby="act-i-tab-button"
+          tabindex="0">
+          <div class="act">
+            <div class="chapter">
+              <div class="chapter-num">01</div>
+              <h3 class="chapter-title">The Beginning — A Spark</h3>
+              <p>I first stepped into the AI world in March 2025, during a two-day AI Application Planner course. What
+                stayed with me the most was not the content itself, but a teacher whose passion for AI deeply moved me.
+                That moment planted a seed. Later, I even had the opportunity to become part of his graduation project
+                team. It felt like a quiet beginning of something meaningful.</p>
+            </div>
+            <div class="chapter">
+              <div class="chapter-num">02</div>
+              <h3 class="chapter-title">Feeling Small in a Big Room</h3>
+              <p>At the freshman orientation, I saw classmates from all kinds of professional backgrounds. I felt small
+                and unsure of myself. Terms like Decision Trees and SVM sounded distant and unfamiliar. I barely
+                understood what was being discussed, yet I knew one thing clearly — I wanted to take something real away
+                from this AI program.</p>
+            </div>
+            <div class="chapter">
+              <div class="chapter-num">03</div>
+              <h3 class="chapter-title">Confusion and Overload</h3>
+              <p>Every day except Monday, there were different AI classes taught by different instructors. Each brought
+                new knowledge, new perspectives, and new complexity. I often found myself in a strange state — half
+                understanding, half lost. It was overwhelming, yet I kept going.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ACT II -->
+        <div class="tab-pane fade" id="act-ii-tab" role="tabpanel" aria-labelledby="act-ii-tab-button" tabindex="0">
+          <div class="act">
+            <div class="chapter">
+              <div class="chapter-num">04</div>
+              <h3 class="chapter-title">Sacrifice and Exhaustion</h3>
+              <p>Between work and school, my life became extremely compressed. Apart from walking fifteen minutes from
+                the MRT station to the classroom, I had almost no time left for myself — not even for exercise. The
+                Python course was especially intense. There were moments when I genuinely questioned whether I had
+                chosen the wrong path.</p>
+            </div>
+            <div class="chapter">
+              <div class="chapter-num">05</div>
+              <h3 class="chapter-title">A Familiar Struggle</h3>
+              <p>When deadlines for two statistics courses approached, I was suddenly pulled back to memories of writing
+                my master's thesis in accounting at Fu Jen University. The feeling was both familiar and distant — a mix
+                of pressure, discipline, and quiet persistence.</p>
+            </div>
+            <div class="chapter">
+              <div class="chapter-num">06</div>
+              <h3 class="chapter-title">Fighting to Work with AI</h3>
+              <p>During the first semester, working with AI tools was not easy. I wanted to collaborate with them
+                effectively, but reality was far from ideal. I spent a significant amount of time trying to complete
+                projects, yet often felt limited by my own abilities. Still, I moved forward quietly and finished the
+                semester.</p>
+            </div>
+            <div class="chapter">
+              <div class="chapter-num">07</div>
+              <h3 class="chapter-title">Struggling Alone in Winter</h3>
+              <p>During the winter break, I tried to build machine learning models on my own using Colab. It was a
+                process of trial and error — almost like crafting something from scratch without guidance. I invested a
+                lot of time and effort, but kept getting stuck, especially in the gap between myself and effective AI
+                collaboration.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ACT III -->
+        <div class="tab-pane fade" id="act-iii-tab" role="tabpanel" aria-labelledby="act-iii-tab-button" tabindex="0">
+          <div class="act">
+            <div class="chapter">
+              <div class="chapter-num">08</div>
+              <h3 class="chapter-title">A Turning Point — Alignment</h3>
+              <p>Everything started to change after the new semester began. Working in VS Code with GPT and Claude, I
+                finally achieved alignment in how to collaborate with AI. From that moment on, something shifted. Every
+                project and every topic I cared about became more manageable. Both the speed and quality of my work came
+                under control.</p>
+            </div>
+            <div class="chapter">
+              <div class="chapter-num">09</div>
+              <h3 class="chapter-title">Looking Back — Nothing Was Wasted</h3>
+              <p>I still remember what Nick once told me — that none of my struggles were wasted. Looking back now, I
+                understand what he meant. Every obstacle I faced became part of my foundation. Those moments of being
+                stuck were not failures; they were preparation.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ACT IV -->
+        <div class="tab-pane fade" id="act-iv-tab" role="tabpanel" aria-labelledby="act-iv-tab-button" tabindex="0">
+          <div class="act">
+            <div class="chapter">
+              <div class="chapter-num">10</div>
+              <h3 class="chapter-title">Where I Am Now</h3>
+              <p>Now, with about two months left before the semester ends, I can see that I have changed — even if only
+                a little. I have gained stronger logical thinking and a better sense of project structure. Today, April
+                18, 2026, I attended an online class at home. After pushing myself to stay awake despite exhaustion, I
+                finally gave in and fell asleep. I woke up at 6 PM to find food.</p>
+            </div>
+            <div class="chapter">
+              <div class="chapter-num">11</div>
+              <h3 class="chapter-title">Gratitude and Reality</h3>
+              <p>I am grateful to my body for carrying me through this journey. In some ways, not much has changed — I
+                even gained some weight. But I have learned something about AI, and that matters. More importantly, I am
+                still here, still moving forward.</p>
+            </div>
+            <div class="chapter">
+              <div class="chapter-num">12</div>
+              <h3 class="chapter-title">Looking Ahead</h3>
+              <p>What I look forward to now is June — the end of the semester, and a trip to Japan. It feels like a
+                small reward waiting at the end of a long and quiet journey.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══ REFLECTION ═══ -->
+    <section id="reflection" class="reflection">
+      <div class="reflection-inner">
+        <figure class="reflection-deco" aria-hidden="true">
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Ccircle cx='60' cy='60' r='58' fill='none' stroke='%23c4714a' stroke-width='0.75' opacity='0.4'/%3E%3Ccircle cx='60' cy='60' r='40' fill='none' stroke='%23c4714a' stroke-width='0.5' opacity='0.25'/%3E%3Cpath d='M20 60 Q60 20 100 60 Q60 100 20 60Z' fill='none' stroke='%237a9e7e' stroke-width='0.75' opacity='0.5'/%3E%3Ccircle cx='60' cy='60' r='3' fill='%23c9a84c' opacity='0.8'/%3E%3C/svg%3E"
+            alt="" width="120" height="120">
+          <figcaption class="reflection-deco-caption">Sophie · 2025–2026</figcaption>
+        </figure>
+
+        <div class="reflection-text">
+          <div class="reflection-label">Reflect &thinsp;·&thinsp; 留下你的想法</div>
+          <h2 class="reflection-heading">Share a Note</h2>
+          <p class="reflection-sub">留下一句對這段旅程的感想，或給 Sophie 的鼓勵。</p>
+
+          <form id="noteForm" class="note-form" novalidate>
+            <div class="form-field">
+              <label for="noteAuthor">稱呼 <span class="req">*</span></label>
+              <input type="text" id="noteAuthor" name="author" placeholder="A classmate, Nick, 匿名…" maxlength="30"
+                autocomplete="off" required>
+              <span class="char-count" id="authorCount">0 / 30</span>
+            </div>
+            <div class="form-field">
+              <label for="noteText">留言 <span class="req">*</span></label>
+              <textarea id="noteText" name="message" placeholder="寫下你的想法…" maxlength="200" rows="3" required></textarea>
+              <span class="char-count" id="textCount">0 / 200</span>
+            </div>
+            <div class="form-field form-field-row">
+              <label for="noteCategory">類型</label>
+              <select id="noteCategory" name="category">
+                <option value="encouragement">鼓勵 💛</option>
+                <option value="reflection">共鳴 🌿</option>
+                <option value="question">提問 🔍</option>
+                <option value="other">其他 ✦</option>
+              </select>
+            </div>
+            <button type="submit" class="note-submit">送出留言</button>
+          </form>
+
+          <div id="noteList" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a href="./index.html" class="footer-back">← Back to Sophie</a>
+      <span class="footer-note">AI Program &thinsp;·&thinsp; 智慧決策分析系統實作 &thinsp;·&thinsp; 2026</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    /* Tab navigation */
+    document.querySelectorAll('[data-act-tab]').forEach(link => {
+      link.addEventListener('click', () => {
+        const btn = document.querySelector(link.dataset.actTab);
+        if (btn) bootstrap.Tab.getOrCreateInstance(btn).show();
+      });
+    });
+
+    /* Notes: variables, array, functions, loops */
+    const notes = [];
+    const categoryLabels = {
+      encouragement: '鼓勵 💛',
+      reflection: '共鳴 🌿',
+      question: '提問 🔍',
+      other: '其他 ✦'
+    };
+
+    function formatTime(d) {
+      const p = n => String(n).padStart(2, '0');
+      return `${d.getFullYear()}/${p(d.getMonth() + 1)}/${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+    }
+
+    function renderNotes() {
+      const list = document.getElementById('noteList');
+      if (!notes.length) { list.innerHTML = ''; return; }
+      let html = '<ul class="note-list">';
+      for (let i = 0; i < notes.length; i++) {
+        const n = notes[i];
+        html += `<li class="note-item">
+          <span class="note-tag">${categoryLabels[n.category]}</span>
+          <p class="note-msg">"${n.message}"</p>
+          <span class="note-meta">${n.author} &thinsp;·&thinsp; ${n.time}</span>
+        </li>`;
+      }
+      html += '</ul>';
+      list.innerHTML = html;
+    }
+
+    function attachCounter(inputId, countId) {
+      const el = document.getElementById(inputId);
+      const ct = document.getElementById(countId);
+      const max = el.getAttribute('maxlength');
+      el.addEventListener('input', () => {
+        const len = el.value.length;
+        ct.textContent = `${len} / ${max}`;
+        ct.classList.toggle('char-warn', len >= max * 0.85);
+      });
+    }
+
+    attachCounter('noteAuthor', 'authorCount');
+    attachCounter('noteText', 'textCount');
+
+    document.getElementById('noteForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const author = document.getElementById('noteAuthor').value.trim();
+      const message = document.getElementById('noteText').value.trim();
+      const category = document.getElementById('noteCategory').value;
+      if (!author || !message) { alert('請填寫稱呼和留言 ✦'); return; }
+      notes.push({ author, message, category, time: formatTime(new Date()) });
+      renderNotes();
+      this.reset();
+      document.getElementById('authorCount').textContent = '0 / 30';
+      document.getElementById('textCount').textContent = '0 / 200';
+      document.getElementById('noteList').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  </script>
+</body>
+
+</html>
